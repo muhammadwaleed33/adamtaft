@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav {
+    width: 70%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    border-left: 8px solid #36B7C6;
+    border-bottom: 8px solid #36B7C6;
+    border-right: 8px solid #36B7C6;
+    border-radius: 0px 0px 35px 35px;
+    padding: 0 50px;
+    background-color: black;
+    justify-content: space-between;
+
+}
+
+.left img {
+    width: 170px;
+}
+
+.right h1 {
+    color: #fff;
+    font-family: 'a Attack Graffiti', sans-serif;
+    font-weight: 300;
+    font-size: 43px;
+}
+
+.main {
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    background-image: url("Images/Background\ Banner.jpg");
+    background-size: cover;
+    margin-top: -135px;
+}
+
+.main .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .banner img {
+    width: 60%;
+}
+
+.main .banner img {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0px, 0);
+    }
+
+    50% {
+        transform: translate(15px, 0);
+    }
+
+    100% {
+        transform: translate(-0px, 0);
+    }
+}
+
+.Sendcookies {
+    background-image: url(Images/DocumentArtboard-12@2x.png);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -60px;
+}
+
+.heading {
+    text-align: center;
+    width: 85%;
+    padding: 70px 10px;
+}
+
+.heading h1 {
+    font-family: 'a Attack Graffiti', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.heading p {
+    font-family: 'h Harbard', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.iconboxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+.box1 {
+    text-align: center;
+    padding: 20px;
+    width: 33%;
+    height: 300px;
+}
+
+.box2 {
+    text-align: center;
+    padding: 20px;
+    width: 33%;
+    height: 300px;
+}
+
+.box3 {
+    text-align: center;
+    padding: 20px;
+    width: 33%;
+    height: 300px;
+    padding-top: 35px;
+}
+
+.iconboxes .box1 img {
+    width: 180px;
+    padding-bottom: 20px;
+}
+
+.iconboxes .box2 img {
+    width: 170px;
+    padding-bottom: 20px;
+    
+}
+
+.iconboxes .box3 img {
+    width: 220px;
+    margin-left: 60px;
+    padding-bottom: 20px;
+}
+
+.iconboxes .box1 h2 {
+    font-family: 'a Attack Graffiti', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.iconboxes .box2 h2 {
+    font-family: 'a Attack Graffiti', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.iconboxes .box3 h2 {
+    font-family: 'a Attack Graffiti', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.anywhere {
+    background-image: url(Images/order\ from\ anywhere.png);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    padding-top: 100px;
+}
+
+.one {
+    width: 33%;
+    padding-left: 70px;
+}
+
+.one h2 {
+    font-size: 45px;
+    color: #35bbc7;
+    font-family: 'a Attack Graffiti', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.one p {
+    font-size: 30px;
+    color: white;
+    font-family: 'h Harbard', sans-serif;
+    font-weight: 600;
+}
+
+.two {
+    width: 33%;
+    text-align: center;
+}
+
+.two img {
+    width: 280px;
+    text-align: center;
+    margin-bottom: -108px;
+}
+
+.two img {
+    animation-name: floating2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating2 {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+.three {
+    width: 33%;
+}
+
+.three img {
+    width: 450px;
+}
+
+.squad {
+    background-color: #36b8c6;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Squadcontent {
+    text-align: center;
+    width: 85%;
+    padding: 70px 10px;
+}
+
+.Squadcontent h1 {
+    font-family: 'a Attack Graffiti', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.Squadcontent p {
+    font-family: 'h Harbard', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.squadimg img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 210px;
+    margin-top: -22px;
+}
+
+.products {
+    background: url(Images/Background-scaled.jpg) #00000091;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    margin-top: -212px;
+    padding-top: 125px;
+    padding-bottom: 150px;
+}
+
+.product1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.product1 img {
+    width: 450px;
+}
+
+.content {
+    text-align: center;
+}
+
+.product1 .content h2 {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'h Harbard', sans-serif;
+}
+
+.product1 .content h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'h Harbard', sans-serif;
+}
+
+.product1 img {
+    animation-name: product1;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes product1 {
+    0% {
+        transform: translate(0px, 0);
+    }
+
+    50% {
+        transform: translate(15px, 0);
+    }
+
+    100% {
+        transform: translate(-0px, 0);
+    }
+}
+
+
+.product2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px 0;
+
+}
+
+.product2 img {
+    width: 400px;
+}
+
+.content {
+    text-align: center;
+}
+
+.product2 .content h2 {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'h Harbard', sans-serif;
+}
+
+.product2 .content h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'h Harbard', sans-serif;
+}
+
+.product2 img {
+    animation-name: product1;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes product1 {
+    0% {
+        transform: translate(0px, 0);
+    }
+
+    50% {
+        transform: translate(15px, 0);
+    }
+
+    100% {
+        transform: translate(-0px, 0);
+    }
+}
+
+.product3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.product3 img {
+    width: 450px;
+}
+
+.content {
+    text-align: center;
+}
+
+.product3 .content h2 {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'h Harbard', sans-serif;
+}
+
+.product3 .content h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'h Harbard', sans-serif;
+}
+
+.product3 img {
+    animation-name: product1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes product1 {
+    0% {
+        transform: translate(0px, 0);
+    }
+
+    50% {
+        transform: translate(15px, 0);
+    }
+
+    100% {
+        transform: translate(-0px, 0);
+    }
+}
+
+
+.foot_image {
+    background-image: url(Images/Footer-image-2048x279.png);
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -200px;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h2 {
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-family: 'a Attack Graffiti', sans-serif;
+    font-weight: 300;
+
+}
+
+footer h3 {
+    font-family: 'h Harbard', sans-serif;
+    font-size: 20px;
+}
